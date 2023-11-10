@@ -1,0 +1,8 @@
+#!/bin/bash
+#see kood peaks käivitamisel ütlema tere, user
+
+user=user
+
+echo ""Tere, $user ""
+echo "!"
+
