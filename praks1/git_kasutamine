@@ -26,3 +26,7 @@ git remote -v
 
 g) pane fail jälgimisele
 git add failinimi
+
+git add failinimi
+git commit -m "kommentaar"
+git push -uf skriptimine master
