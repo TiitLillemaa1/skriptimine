@@ -1,0 +1,9 @@
+#!/bin/bash
+#see kood peaks käivitamisel ütlema tere, kasutaja ja ütleb kuupäeva koos kellajaga
+
+user=Oliver
+
+echo ""Tere, $user ! ""
+echo " täna on  "
+date +"%M %B %Y"
+date +"Kell %H:%M"
