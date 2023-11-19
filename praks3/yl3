@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo -n "sisesta ainepunktide arv:"
+read ainepunktid
+echo -n "Sisesta nädalate arv"
+read nadalad
+#arvutab ekapi väärtuse
+ekap=$ainepunktid*26
+#arvutab nädalase ajakulu
+aeg=`echo "scale=1;$ekap/$nadalad" | bc`
+
+echo $aeg
+#ümardab nädalase aja kulu täis tundideks
+aeg_ymarda="`echo "($aeg+0.9)/1" | bc`"
+
+echo $aeg_ymarda 
+
