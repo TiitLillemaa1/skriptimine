@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#defineeritud muutujad
+aasta=2016
+president=" Kersti Kaljulaid"
+lause_keskosa=". aastal valiti Eesti presidendiks"
+#trellide taga on funktsioon mis vajadusel teisendab arvu sõneks
+#number_to_string (){
+#local number=$1
+#echo="$aasta"
+#}
+
+
+lause="$aasta$lause_keskosa$president"
+#lõpp tulemuse väljastamine
+echo $lause
