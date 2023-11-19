@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Kui palju reisjaid tuleb?"
+read reisjad
+echo "Kohtade arv bussis"
+read kohad
+
+bussid=$(($reisjad/$kohad))
+
+maha_jaanud=$(($reisjad%$kohad))
+
+echo Busse vaja: $bussid
+
+echo Inimesi jääb maha: $maha_jaanud
