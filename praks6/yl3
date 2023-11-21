@@ -1,0 +1,19 @@
+#!/bin/bash
+#küsib kasutajalt kuu numbrit
+echo -n " Sisesta kuu arv:"
+read arv
+#väljastab valikust õige kuu nime
+case $arv in
+1) echo "see on jaanuar";;
+2) echo "See on veebruar";;
+3) echo "See on märts";;
+4) echo "See on aprill";;
+5) echo "See on mai";;
+6) echo "See on juuni";;
+7) echo "See on juuli";;
+8) echo "See on august";;
+9) echo "See on september";;
+10) echo "see on oktoober";;
+11) echo "See on movember";;
+12) echo "See on detsember";;
+esac
